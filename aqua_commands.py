@@ -20,7 +20,7 @@ command_reponses = {
 	"!expansion" : "[The pokeemerald-expansion Source Code](<https://github.com/rh-hideout/pokeemerald-expansion>)\n\
 [RHH Discord - Home of Expansion Development](https://discord.com/invite/6CzjAG6GZk)",
 	"!hma" : "Get out of here ya filthy b*nary hacker, you belong here: \nhttps://discord.com/invite/x9eQuBg",
-
+	"!ghguide" : "[Team Aqua Github Tutorial](<https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub>)",
 }
 
 
@@ -64,6 +64,10 @@ class AquaCommands(commands.Cog, name="Team Aqua Commands"):
 	@commands.command(help="Link: Team Aqua Asset Repo", category="Team Aqua Commands")
 	async def taar(self, ctx):
 		await ctx.send(command_reponses["!taar"])	
+
+	@commands.command(help="Link: Github Tutorial/Guide", category="Team Aqua Commands")
+	async def ghguide(self, ctx):
+		await ctx.send(command_reponses["!ghguide"])	
 	
 	@commands.command(help="Link: Decomp and Resources", category="Team Aqua Commands")
 	async def decomp(self, ctx):
