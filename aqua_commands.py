@@ -9,18 +9,20 @@ command_reponses = {
     "!tutorials" : "[Video Tutorials](<https://www.youtube.com/playlist?list=PLLNv9Lq6kDmTIYfN5NvgQRvfOHTOXl0uU>)\n\
 [pokeemerald Wiki Tutorials](<https://github.com/pret/pokeemerald/wiki/Tutorials>)\n\
 [The Basics Of Scripting](<https://github.com/pret/pokeemerald/wiki/The-Basics-of-Scripting>)\n\
-[The Basics of Github](<https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub>)",
-    "!taar" : "[Team Aqua Asset Repo](<https://github.com/Pawkkie/Team-Aquas-Asset-Repo>)",
+[The Basics of Github](<https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub>)",
+    "!taar" : "[Team Aqua Asset Repo](<https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo>)",
 	"!decomp" : "## Decomp Resources:\n\
 [Pokemon Emerald Decomp Source Code](<https://github.com/pret/pokeemerald>)\n\
 [Porymap Download](<https://github.com/huderlem/porymap>)\n\
 [Porymap Documentation](<https://huderlem.github.io/porymap/manual/introduction.html>)\n\
-[Poryscript Download](<https://github.com/huderlem/poryscript>)",
+[Poryscript Download](<https://github.com/huderlem/poryscript>)\n\
+[pokeemerald-expansion Decomp Hack Base](<https://github.com/rh-hideout/pokeemerald-expansion>)\n\
+[Pokemon FireRed Decomp Source Code](<https://github.com/pret/pokefirered>)",
 	"!tonc" : "[TONC - GBA Programming Guide](<https://www.coranac.com/tonc/text/toc.htm>)",
 	"!expansion" : "[The pokeemerald-expansion Source Code](<https://github.com/rh-hideout/pokeemerald-expansion>)\n\
 [RHH Discord - Home of Expansion Development](https://discord.com/invite/6CzjAG6GZk)",
 	"!hma" : "Get out of here ya filthy b*nary hacker, you belong here: \nhttps://discord.com/invite/x9eQuBg",
-	"!ghguide" : "[Team Aqua Github Tutorial](<https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub>)",
+	"!ghguide" : "[Team Aqua Github Tutorial](<https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub>)",
 }
 
 

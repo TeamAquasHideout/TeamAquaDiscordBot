@@ -35,13 +35,7 @@ trigger_responses = {
     "smogon" : "https://discord.com/channels/976252009114140682/1201226013716250694",
     "pokemon showdown" : "https://discord.com/channels/976252009114140682/1201226013716250694",
     "showdown" : "https://discord.com/channels/976252009114140682/1201226013716250694",
-
-    "Biden"     : "https://discord.com/channels/976252009114140682/1186086211815735356",
-    "Kamala"        : "https://discord.com/channels/976252009114140682/1186086211815735356",
-    "Trump"     : "https://discord.com/channels/976252009114140682/1186086211815735356",
-    "politics"      : "https://discord.com/channels/976252009114140682/1186086211815735356",
-    "democrat"     : "https://discord.com/channels/976252009114140682/1186086211815735356",
-    "republican"       : "https://discord.com/channels/976252009114140682/1186086211815735356",
+    "/r/PokemonROMhacks" : "Completely Normal Grunt wants to make sure that this discussion really needs to be had here. If this subreddit link is drama related, at least move the conversation to https://discord.com/channels/976252009114140682/1186086211815735356.",
 }
 
 # Event: Bot is ready
@@ -57,7 +51,7 @@ async def on_message(message):
         return
     
     # Check if any trigger word is present in the message
-    if not message.channel.name == "pokemon" and not message.channel.name == "memes":
+    if not message.channel.name in ["pokemon", "memes", "battle-workshop"]:
         for trigger, response in trigger_responses.items():
             if trigger.lower() in message.content.lower():
                 await message.channel.send(response)
