@@ -54,6 +54,8 @@ async def on_message(message):
     if not message.channel.name in ["pokemon", "memes", "battle-workshop"]:
         for trigger, response in trigger_responses.items():
             if trigger.lower() in message.content.lower():
+                if(str(message.author) == "archie5000") and (message.content.lower() == '<@1226444053739208774>'):
+                    response = "Reporting For Duty, Sir!"
                 await message.channel.send(response)
                 break  # Exit loop after sending one response
 
